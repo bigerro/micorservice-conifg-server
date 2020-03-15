@@ -1,7 +1,7 @@
 server:
   port: ${port:9091} # 不传-Dport=**默认9091
-spring
-  application
+spring:
+  application:
     name: user-service
 #  datasource
 #    driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,7 +17,7 @@ spring
 #    hibernate
 #      ddl-auto: update
 #    generate-ddl: true
-eureka
-  client
-    service-url
+eureka:
+  client:
+    service-url:
       defaultZone: http://localhost:9090/eureka
