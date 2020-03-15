@@ -1,7 +1,8 @@
 server:
   port: ${port:9091} # 不传-Dport=**默认9091
-spring.application.name=user-service
-#spring
+spring
+  application
+    name: user-service
 #  datasource
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    url=jdbc:mysql://203.195.237.107:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
